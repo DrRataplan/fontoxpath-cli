@@ -1,0 +1,23 @@
+{
+  "name": "fontoxpath-cli",
+  "version": "0.1.0",
+  "description": "A command line interface to FontoXPath",
+  "main": "index.js",
+  "bin": "fontoxpath-cli",
+  "scripts": {
+    "test": "node index.js -e '\"Test OK!!\"' && node index.js --input ./test/test.xml test/test.xqm"
+  },
+  "repository": "git@github.com:DrRataplan/fontoxpath-cli.git",
+  "keywords": [
+    "XPath",
+    "XPath3.1",
+    "XQuery",
+    "XQuery3.1"
+  ],
+  "author": "Martin Middel",
+  "license": "MIT",
+  "dependencies": {
+    "fontoxpath": "^2.11.0",
+    "slimdom-sax-parser": "^1.1.3"
+  }
+}
